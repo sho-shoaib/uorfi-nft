@@ -41,7 +41,7 @@ const HeaderOnePage = () => {
               <div className='header__logo'>
                 <Link to='/'>
                   <h1 style={{ fontSize: "40px", color: "#FD562A" }}>
-                    URFI NFT
+                    UORFI NFT
                   </h1>
                 </Link>
               </div>

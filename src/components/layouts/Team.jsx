@@ -57,9 +57,17 @@ const Team = (props) => {
             >
               {data.slice(0, 6).map((data, index) => (
                 <SwiperSlide key={index}>
-                  <div className='team-box'>
+                  <div className='team-box' style={{ height: "350px" }}>
                     <div className='img-team'>
-                      <img src={data.img} alt='Monteno' />
+                      <img
+                        src={data.img}
+                        alt='Monteno'
+                        style={{
+                          height: "250px",
+                          objectFit: "cover",
+                          objectPosition: "top",
+                        }}
+                      />
                       <div className='social'>
                         <p>
                           <a>

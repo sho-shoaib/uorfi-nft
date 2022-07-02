@@ -16,7 +16,7 @@ const menus = [
   },
   {
     id: 4,
-    name: "Urfi",
+    name: "Uorfi",
     links: "/#roadmap",
   },
   {

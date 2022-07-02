@@ -6,7 +6,7 @@ import img4 from "../images/team/team-04.jpg";
 const dataTeam = [
   {
     img: img1,
-    name: "Urfi Javed",
+    name: "Uorfi Javed",
     position: "Colab Partner",
   },
   {
@@ -25,46 +25,5 @@ const dataTeam = [
     position: "CTO",
   },
 ];
-
-// {
-//     img: img5,
-//     name:'Mike Anderson',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img6,
-//     name:'Paul Harrison',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img7,
-//     name:'Sarah Jenifer',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img8,
-//     name:'James Smith',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img9,
-//     name:'Paul Harrison',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img10,
-//     name:'Sarah Jenifer',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img11,
-//     name:'Mike Anderson',
-//     position: 'Founder & CEO'
-// },
-// {
-//     img: img12,
-//     name:'James Smith',
-//     position: 'Founder & CEO'
-// },
 
 export default dataTeam;

@@ -6,9 +6,9 @@ import item from "../../assets/fake-data/item";
 
 const SliderOne = () => {
   const [datatext] = useState({
-    subtitle: "Urfi's NFTs",
+    subtitle: "Uorfi's NFTs",
     title: "Join the NFT revolution",
-    desc: "Urfi NFTs is an initiative for women's protection through the power of blockchain technology.",
+    desc: "Uorfi NFTs is an initiative for women's protection through the power of blockchain technology.",
   });
 
   return (
