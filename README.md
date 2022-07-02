@@ -1,1 +1,2 @@
-HomeOnePage Template is used
+npm install
+npm start
