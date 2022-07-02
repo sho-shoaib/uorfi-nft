@@ -6,7 +6,7 @@ const Infomation = () => {
     {
       icon: icon.user,
       title: "Name :",
-      info: "Urfi NFTs",
+      info: "Uorfi NFTs",
     },
     {
       icon: icon.trading,

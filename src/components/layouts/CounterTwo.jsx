@@ -20,7 +20,9 @@ const CounterTwo = () => {
           Socials
         </h5>
         <h3 className='title mb-37' data-aos='fade-up' data-aos-duration='1000'>
-          Uorfi Javed's <br /> Social Media Following
+          UORFI'S
+          <br />
+          Social Media Following
         </h3>
       </div>
       <div className='container'>

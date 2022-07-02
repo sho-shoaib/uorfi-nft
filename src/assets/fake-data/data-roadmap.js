@@ -14,7 +14,7 @@ const dataRoadMap = [
   {
     time: "",
     title: "Events!",
-    desc: "Rare NFT hodlers get access to Urfi events and Urfi photoshoots.",
+    desc: "Rare NFT hodlers get access to Uorfi events and Uorfi photoshoots.",
     class: "left mt--23",
   },
   {
@@ -32,7 +32,7 @@ const dataRoadMap = [
   {
     time: "",
     title: "If you hold",
-    desc: "5 or more NFTs, you get to talk with Urfi Javed on a call\n10 or more NFTs you get to talk with Urfi Javed on a video call\n50 or more NFTs you get to meet Urfi Javed in person.",
+    desc: "5 or more NFTs, you get to talk with Uorfi on a call\n10 or more NFTs you get to talk with Uorfi on a video call\n50 or more NFTs you get to meet Uorfi in person.",
     class: "right mt-200",
   },
   {

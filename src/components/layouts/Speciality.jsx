@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Speciality = (props) => {
   const [datatext] = useState({
     subtitle: "NFT Segregation by numbers",
-    title: "We have devided the NFT collection to 4 exciting segments!",
+    title: "We have divided the NFT collection to 4 exciting segments!",
     desc: "",
   });
 

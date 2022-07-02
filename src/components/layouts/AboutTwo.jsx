@@ -7,9 +7,9 @@ const AboutTwo = () => {
     subtitle: "About Us",
     title: "Hight Quality NFT Collections",
     desc1:
-      "Uorfi javed NFT is an initiative for women's protection through the power of blockchain technology. There are 5000 unique artworks out of a million possibilities which will be a token of contribution to a wise cause.",
+      "Uorfi NFT is an initiative for women's protection through the power of blockchain technology. There are 5000 unique artworks out of a million possibilities which will be a token of contribution to a wise cause.",
     desc2:
-      "Bollywood celebrity Urfi Javed has been receiving death threats and bullying pressure. Rather than adjusting to that she has addressed this as a real-world problem and has taken initiative to solve it using the power of blockchain technology and NFTs.",
+      "Bollywood celebrity Uorfi has been receiving death threats and bullying pressure. Rather than adjusting to that she has addressed this as a real-world problem and has taken initiative to solve it using the power of blockchain technology and NFTs.",
   });
 
   return (

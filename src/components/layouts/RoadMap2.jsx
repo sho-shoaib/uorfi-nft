@@ -20,21 +20,21 @@ const RoadMap2 = (props) => {
                 data-aos='fade-in'
                 data-aos-duration='1000'
               >
-                <span>About Urfi Javed</span>
+                <span>About Uorfi</span>
               </h1>
               <h5
                 className='sub-title mb-10'
                 data-aos='fade-up'
                 data-aos-duration='1000'
               >
-                About Urfi Javed
+                About Uorfi
               </h5>
               <h3
                 className='title mb-28'
                 data-aos='fade-up'
                 data-aos-duration='1000'
               >
-                UORFI JAVED'S <br /> Career{" "}
+                UORFI'S CAREER
               </h3>
             </div>
           </div>

@@ -1,7 +1,7 @@
 const dataFaq = [
   {
-    title: "How can I buy Uorfi Javed's NFTs?",
-    text: "Mint during the public sale which will be open for all. You can mint Uorfi Javed's NFT on Wazirx, Opensea, Foundation.",
+    title: "How can I buy Uorfi's NFTs?",
+    text: "Mint during the public sale which will be open for all. You can mint Uorfi's NFT on Wazirx, Opensea, Foundation.",
     show: "true",
   },
   {
@@ -10,7 +10,7 @@ const dataFaq = [
   },
   {
     title: "How will upfront utilities affect the collection?",
-    text: "Uorfi Javed's NFT is one of the first projects with all the utility upfront!!! Prices are set to increase after every use of the utility.",
+    text: "Uorfi's NFT is one of the first projects with all the utility upfront!!! Prices are set to increase after every use of the utility.",
   },
   {
     title: "How much will be the floor price?",

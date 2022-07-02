@@ -6,7 +6,7 @@ import img4 from "../images/team/team-04.jpg";
 const dataTeam = [
   {
     img: img1,
-    name: "Uorfi Javed",
+    name: "Uorfi",
     position: "Colab Partner",
   },
   {
