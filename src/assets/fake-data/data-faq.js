@@ -13,7 +13,7 @@ const dataFaq = [
     text: "Uorfi's NFT is one of the first projects with all the utility upfront!!! Prices are set to increase after every use of the utility.",
   },
   {
-    title: "How much will be the floor price?",
+    title: "How much will be the floor pricee?",
     text: "To encourage price discovery, the highest unfilled bid on an NFT receives 0.5% of the transaction fees",
   },
 ];
