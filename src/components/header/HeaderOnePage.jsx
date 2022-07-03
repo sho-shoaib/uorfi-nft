@@ -3,9 +3,11 @@ import { Link, useLocation } from "react-router-dom";
 import menus from "../../pages/menuonepage";
 import "./header.scss";
 import ButtonOne from "../button/ButtonOne";
+import useWindowDimensions from "../../useWindowDimension";
 
 const HeaderOnePage = () => {
   const { pathname } = useLocation();
+  const { width } = useWindowDimensions();
 
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
@@ -50,6 +52,9 @@ const HeaderOnePage = () => {
                 <nav
                   id='main-nav'
                   className={`main-nav ${menuActive ? "active" : ""}`}
+                  style={{
+                    display: `${width > 1100 ? "flex" : "inline-block"}`,
+                  }}
                 >
                   <ul id='menu-primary-menu' className='menu'>
                     {menus.map((data, index) => (
@@ -82,10 +87,16 @@ const HeaderOnePage = () => {
                       </li>
                     ))}
                   </ul>
+                  <div
+                    style={{
+                      marginTop: `${width < 1100 ? "30px" : "0px"}`,
+                      display: `${width < 1100 ? "flex" : "inline-block"}`,
+                      justifyContent: `${width < 1100 ? "center" : "none"}`,
+                    }}
+                  >
+                    <ButtonOne />
+                  </div>
                 </nav>
-                <div className='button'>
-                  <ButtonOne />
-                </div>
                 <div
                   className={`mobile-button ${menuActive ? "active" : ""}`}
                   onClick={handleMenuActive}
