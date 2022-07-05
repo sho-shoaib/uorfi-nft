@@ -58,13 +58,6 @@ const Infomation = () => {
               >
                 {datatext.desc1}
               </p>
-              <a
-                className='btn-action style-2'
-                data-aos='fade-up'
-                data-aos-duration='1200'
-              >
-                Buy NFT
-              </a>
             </div>
           </div>
           <div className='col-xl-5 col-md-12'>
