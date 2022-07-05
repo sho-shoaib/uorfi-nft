@@ -10,7 +10,7 @@ const dataTeam = [
     position: "Colab Partner",
     fbLink: "https://www.facebook.com/OfficialUrf7i",
     instaLink: "https://www.instagram.com/urf7i/",
-    twitterLink: "https://twitter.com/urfeaslam",
+    twitterLink: "https://twitter.com/uorfi_",
   },
   {
     img: img2,
