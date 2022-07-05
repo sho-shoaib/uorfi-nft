@@ -8,21 +8,33 @@ const dataTeam = [
     img: img1,
     name: "Uorfi",
     position: "Colab Partner",
+    fbLink: "https://www.facebook.com/OfficialUrf7i",
+    instaLink: "https://www.instagram.com/urf7i/",
+    twitterLink: "https://twitter.com/urfeaslam",
   },
   {
     img: img2,
     name: "Parikshit Pndya",
     position: "Founder & CEO Rebillion",
+    fbLink: "https://www.facebook.com/parikshit.pandya",
+    instaLink: "https://www.instagram.com/parikshitpndya/",
+    twitterLink: "https://twitter.com/Pariksh99151310",
   },
   {
     img: img3,
     name: "Mehul Mstry",
     position: "Founder and Business Development",
+    fbLink: "https://www.facebook.com/MehulMstryy",
+    instaLink: "https://www.instagram.com/mehulmstry/",
+    twitterLink: "https://twitter.com/impingegrafix",
   },
   {
     img: img4,
     name: "Abhayrajsinh Gohil",
     position: "CTO",
+    fbLink: "",
+    instaLink: "https://www.instagram.com/mxxnwolf/",
+    twitterLink: "https://twitter.com/mxxnwolf",
   },
 ];
 

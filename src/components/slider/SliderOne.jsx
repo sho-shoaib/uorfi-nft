@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import item from "../../assets/fake-data/item";
@@ -66,12 +65,12 @@ const SliderOne = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-1'>
-                    <img src={item.item1} alt='Monteno' />
+                    <img src={item.item3} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-2'>
-                    <img src={item.item2} alt='Monteno' />
+                    <img src={item.item4} alt='Monteno' />
                   </div>
                 </SwiperSlide>
               </Swiper>
@@ -91,27 +90,27 @@ const SliderOne = () => {
               >
                 <SwiperSlide>
                   <div className='item bg-2'>
-                    <img src={item.item3} alt='Monteno' />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='item bg-1'>
-                    <img src={item.item4} alt='Monteno' />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='item bg-2'>
                     <img src={item.item5} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-1'>
-                    <img src={item.item3} alt='Monteno' />
+                    <img src={item.item6} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-2'>
-                    <img src={item.item4} alt='Monteno' />
+                    <img src={item.item7} alt='Monteno' />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='item bg-1'>
+                    <img src={item.item8} alt='Monteno' />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='item bg-2'>
+                    <img src={item.item9} alt='Monteno' />
                   </div>
                 </SwiperSlide>
               </Swiper>
@@ -130,27 +129,27 @@ const SliderOne = () => {
               >
                 <SwiperSlide>
                   <div className='item bg-2'>
-                    <img src={item.item6} alt='Monteno' />
+                    <img src={item.item10} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-1'>
-                    <img src={item.item7} alt='Monteno' />
+                    <img src={item.item11} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-2'>
-                    <img src={item.item4} alt='Monteno' />
+                    <img src={item.item12} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-1'>
-                    <img src={item.item6} alt='Monteno' />
+                    <img src={item.item13} alt='Monteno' />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className='item bg-2'>
-                    <img src={item.item7} alt='Monteno' />
+                    <img src={item.item14} alt='Monteno' />
                   </div>
                 </SwiperSlide>
               </Swiper>

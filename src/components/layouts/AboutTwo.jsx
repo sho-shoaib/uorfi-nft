@@ -23,7 +23,7 @@ const AboutTwo = () => {
                   className='item bg-1 big'
                   style={{ backgroundColor: "#99FFEF" }}
                 >
-                  <img src={item.item27} alt='Monteno' />
+                  <img src={item.item15} alt='Monteno' />
                 </div>
               </div>
               <div className='right'>
@@ -31,13 +31,13 @@ const AboutTwo = () => {
                   className='item bg-2 small'
                   style={{ backgroundColor: "#F7EEE9" }}
                 >
-                  <img src={item.item28} alt='Monteno' />
+                  <img src={item.item16} alt='Monteno' />
                 </div>
                 <div
                   className='item bg-3'
                   style={{ backgroundColor: "#98ADFE" }}
                 >
-                  <img src={item.item29} alt='Monteno' />
+                  <img src={item.item17} alt='Monteno' />
                 </div>
               </div>
             </div>

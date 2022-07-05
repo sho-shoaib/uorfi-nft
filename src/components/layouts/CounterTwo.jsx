@@ -32,6 +32,7 @@ const CounterTwo = () => {
               className='counter__body'
               data-aos='fade-down'
               data-aos-duration='1000'
+              style={{ justifyContent: "space-around" }}
             >
               <a
                 className='counter'
@@ -63,7 +64,7 @@ const CounterTwo = () => {
               </a>
               <a
                 className='counter'
-                href='https://www.facebook.com/OfficialUrf7i'
+                href='https://twitter.com/urfeaslam'
                 target='_blank'
               >
                 <i
@@ -71,8 +72,7 @@ const CounterTwo = () => {
                   style={{ color: "#F65432" }}
                 ></i>
                 <div className='number-counter' style={{ color: "#200B6A" }}>
-                  <CountUp start={1.0} end={10.0} decimals={1} duration={0.7} />
-                  B
+                  <CountUp start={1} end={69} duration={0.7} />K
                 </div>
                 <h5 className='title'>Twitter</h5>
               </a>

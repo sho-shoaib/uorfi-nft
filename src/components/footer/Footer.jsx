@@ -34,14 +34,31 @@ const Footer = () => {
             <div className='footer__body'>
               <ul className='social'>
                 <li data-aos='fade-up' data-aos-duration='1400'>
-                  <Link to='#'>
-                    <i className='fab fa-instagram'></i>
-                  </Link>
+                  <a href='https://www.instagram.com/urf7i/' target='_blank'>
+                    <i
+                      className='fab fa-instagram'
+                      style={{ color: "white" }}
+                    ></i>
+                  </a>
                 </li>
                 <li data-aos='fade-up' data-aos-duration='1000'>
-                  <Link to='#'>
-                    <i className='fab fa-facebook-f'></i>
-                  </Link>
+                  <a
+                    href='https://www.facebook.com/OfficialUrf7i'
+                    target='_blank'
+                  >
+                    <i
+                      className='fab fa-facebook-f'
+                      style={{ color: "white" }}
+                    ></i>
+                  </a>
+                </li>
+                <li data-aos='fade-up' data-aos-duration='1000'>
+                  <a href='https://twitter.com/urfeaslam' target='_blank'>
+                    <i
+                      className='fab fa-twitter'
+                      style={{ color: "white" }}
+                    ></i>
+                  </a>
                 </li>
               </ul>
             </div>

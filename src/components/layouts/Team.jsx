@@ -70,14 +70,14 @@ const Team = (props) => {
                       />
                       <div className='social'>
                         <p>
-                          <a>
+                          <a href={data.fbLink} target='_blank'>
                             <i className='fab fa-facebook-square'></i>
                           </a>
-                          <a>
+                          <a href={data.twitterLink} target='_blank'>
                             <i className='fab fa-twitter-square'></i>
                           </a>
-                          <a>
-                            <i className='fab fa-telegram'></i>
+                          <a href={data.instaLink} target='_blank'>
+                            <i className='fab fa-instagram-square'></i>
                           </a>
                         </p>
                       </div>
