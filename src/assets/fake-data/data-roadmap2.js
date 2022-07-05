@@ -1,7 +1,7 @@
 const dataRoadMap = [
   {
     title: "Sony TV",
-    text: "Uorfi Javed appeared in Sony TV's Bade Bhaiyya Ki Dulhania as Avni Pant.",
+    text: "Uorfi appeared in Sony TV's Bade Bhaiyya Ki Dulhania as Avni Pant.",
     time: "2016",
     class: "top",
   },

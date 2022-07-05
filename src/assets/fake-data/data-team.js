@@ -15,7 +15,7 @@ const dataTeam = [
   {
     img: img2,
     name: "Parikshit Pndya",
-    position: "Founder & CEO Rebillion",
+    position: "Founder & CEO Rebillion NFT LLP",
     fbLink: "https://www.facebook.com/parikshit.pandya",
     instaLink: "https://www.instagram.com/parikshitpndya/",
     twitterLink: "https://twitter.com/Pariksh99151310",
