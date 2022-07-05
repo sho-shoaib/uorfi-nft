@@ -7,7 +7,7 @@ const dataTeam = [
   {
     img: img1,
     name: "Uorfi",
-    position: "Colab Partner",
+    position: "Collab Partner",
     fbLink: "https://www.facebook.com/OfficialUrf7i",
     instaLink: "https://www.instagram.com/urf7i/",
     twitterLink: "https://twitter.com/uorfi_",
