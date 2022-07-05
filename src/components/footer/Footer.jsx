@@ -63,7 +63,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className='footer_bottom'>
-              <p className='fs-16'>Copyright © 2022, Rebillion - NFT</p>
+              <p className='fs-16'>Copyright Rebillion - NFT © 2022</p>
               <ul>
                 <li>
                   <Link to='#'>Terms & Condition</Link>

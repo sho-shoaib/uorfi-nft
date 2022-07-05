@@ -21,7 +21,7 @@ const Infomation = () => {
     {
       icon: icon.payment,
       title: "Floor Price ",
-      info: "0.3 eth",
+      info: "0.21 bnb",
     },
   ]);
   const [datatext] = useState({
