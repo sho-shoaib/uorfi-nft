@@ -64,7 +64,7 @@ const CounterTwo = () => {
               </a>
               <a
                 className='counter'
-                href='https://twitter.com/urfeaslam'
+                href='https://twitter.com/uorfi_'
                 target='_blank'
               >
                 <i
