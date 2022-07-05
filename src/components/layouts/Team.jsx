@@ -70,9 +70,11 @@ const Team = (props) => {
                       />
                       <div className='social'>
                         <p>
-                          <a href={data.fbLink} target='_blank'>
-                            <i className='fab fa-facebook-square'></i>
-                          </a>
+                          {data.fbLink !== "" && (
+                            <a href={data.fbLink} target='_blank'>
+                              <i className='fab fa-facebook-square'></i>
+                            </a>
+                          )}
                           <a href={data.twitterLink} target='_blank'>
                             <i className='fab fa-twitter-square'></i>
                           </a>
