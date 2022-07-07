@@ -58,7 +58,7 @@ const dataRoadMap = [
   {
     time: "",
     title: "Investment tips",
-    desc: "Holders will get access to exclusive digital trading groups",
+    desc: "Holders will get exclusive access to digital assets investment groups.",
     customDesc: false,
     class: "left",
   },
