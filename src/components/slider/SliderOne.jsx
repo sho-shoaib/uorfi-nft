@@ -3,7 +3,7 @@ import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import item from "../../assets/fake-data/item";
 
-const SliderOne = () => {
+const SliderOne = ({ handleOpen }) => {
   const [datatext] = useState({
     subtitle: "Uorfi's NFTs",
     title: "Join the NFT revolution",
@@ -33,6 +33,7 @@ const SliderOne = () => {
                 className='btn-action style-2'
                 data-aos='fade-up'
                 data-aos-duration='1200'
+                onClick={handleOpen}
               >
                 Get Whitelisted
               </a>

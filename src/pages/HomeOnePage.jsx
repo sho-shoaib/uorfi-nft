@@ -18,12 +18,19 @@ import Team from "../components/layouts/Team";
 import SliderOne from "../components/slider/SliderOne";
 import Speciality from "../components/layouts/Speciality";
 import dataCard from "../assets/fake-data/data-card";
+import ModalMain from "../components/layouts/ModalMain";
 
 const HomeOnePage = () => {
+  // Modal Handles
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <div className='home-3 one-page'>
       <HeaderOnePage />
-      <SliderOne />
+      <SliderOne handleOpen={handleOpen} />
+      <ModalMain open={open} handleClose={handleClose} />
       <AboutTwo />
       <Speciality data={dataCard} />
       <Infomation />
