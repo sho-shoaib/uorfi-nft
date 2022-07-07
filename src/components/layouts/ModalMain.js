@@ -1,7 +1,9 @@
 import React from "react";
 import Modal from "@mui/material/Modal";
 import { Box } from "@mui/system";
-import Fade from "@mui/material/Fade";
+import Grow from "@mui/material/Grow";
+import { motion } from "framer-motion";
+import { Typography } from "@mui/material";
 
 const style = {};
 
@@ -14,37 +16,40 @@ const ModalMain = ({ open, handleClose }) => {
       aria-describedby='modal-modal-description'
       sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
     >
-      <Fade in={open}>
-        <Box
+      {/* <Grow in={open}> */}
+      <Box
+        component={motion.div}
+        // className='animate-bounce'
+        sx={{
+          position: "absolute",
+          // top: "50%",
+          // left: "50%",
+          transform: "translate(-50%, -50%)",
+          backgroundColor: "#ffe9e3",
+          p: { lg: 10, sm: 8, xs: 7 },
+          borderRadius: "20px",
+        }}
+        animate={{ scale: 1.17 }}
+        transition={{
+          type: "spring",
+          stiffness: "500",
+          duration: 3,
+          ease: "easeOut",
+        }}
+      >
+        <Typography
           sx={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            backgroundColor: "#fff",
-            p: 7,
-            borderRadius: "20px",
+            color: "#FD562A",
+            fontSize: { lg: 55, sm: 40, xs: 30 },
+            fontWeight: 800,
+            fontStyle: "italic",
+            textShadow: "3px 3px rgb(197 45 5)",
           }}
-          // animate={{ scale: 1.15 }}
-          // transition={{
-          //   type: "spring",
-          //   stiffness: "300",
-          //   duration: 150,
-          //   ease: "easeIn",
-          // }}
         >
-          <p
-            style={{
-              color: "#FD562A",
-              fontSize: "70px",
-              fontWeight: "700",
-              fontStyle: "italic",
-            }}
-          >
-            Coming Soon
-          </p>
-        </Box>
-      </Fade>
+          Coming Soon
+        </Typography>
+      </Box>
+      {/* </Grow> */}
     </Modal>
   );
 };
