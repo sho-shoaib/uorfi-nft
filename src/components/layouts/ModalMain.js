@@ -43,7 +43,11 @@ const ModalMain = ({ open, handleClose }) => {
             fontSize: { lg: 55, sm: 40, xs: 30 },
             fontWeight: 800,
             fontStyle: "italic",
-            textShadow: "3px 3px rgb(197 45 5)",
+            textShadow: {
+              lg: "3px 3px rgb(197 45 5)",
+              sm: "2px 2px rgb(197 45 5)",
+              xs: "1px 1px rgb(197 45 5)",
+            },
           }}
         >
           Coming Soon

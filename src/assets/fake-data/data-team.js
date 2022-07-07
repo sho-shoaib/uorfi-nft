@@ -1,7 +1,7 @@
 import img1 from "../images/team/team-01.jpg";
 import img2 from "../images/team/team-02.jpg";
 import img3 from "../images/team/team-03.jpg";
-import img4 from "../images/team/team-04.jpg";
+import img4 from "../images/team/team-04.jpeg";
 
 const dataTeam = [
   {
