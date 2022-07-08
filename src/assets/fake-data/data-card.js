@@ -1,7 +1,7 @@
 const dataCard = [
   {
     stt: "01",
-    title: "5000 unique nfts",
+    title: "5 different drops of 1000",
     desc: "",
     class: "mr-28",
 
@@ -9,7 +9,7 @@ const dataCard = [
   },
   {
     stt: "02",
-    title: "5 different drops of 1000",
+    title: "500 rare NFTs",
     desc: "",
     class: "mt-45",
 
@@ -17,7 +17,7 @@ const dataCard = [
   },
   {
     stt: "03",
-    title: "500 rare NFTs",
+    title: "50 SuperRare NFTs",
     desc: "",
     class: "mr-28 mt--16",
 
@@ -25,7 +25,7 @@ const dataCard = [
   },
   {
     stt: "04",
-    title: "50 SuperRare NFTs",
+    title: "5 SuperFan NFTs with extra Utilities",
     desc: "",
     class: "mt-29",
 

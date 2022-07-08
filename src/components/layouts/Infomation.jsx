@@ -11,7 +11,7 @@ const Infomation = () => {
     {
       icon: icon.trading,
       title: "Platforms :",
-      info: "Wazirx, Opensea, Foundation",
+      info: "Wazirx",
     },
     {
       icon: icon.box,

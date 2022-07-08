@@ -7,7 +7,7 @@ const SliderOne = ({ handleOpen }) => {
   const [datatext] = useState({
     subtitle: "Uorfi's NFTs",
     title: "Join the NFT revolution",
-    desc: "Uorfi NFTs is an initiative for women's protection through the power of blockchain technology.",
+    desc: "Uorfi NFT is an initiative for commercial blockchain utilities, making NFTs mainstream and women empowerment.",
   });
 
   return (

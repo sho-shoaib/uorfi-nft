@@ -1,7 +1,7 @@
 const dataFaq = [
   {
     title: "How can I buy Uorfi's NFTs?",
-    text: "Mint during the public sale which will be open for all. You can mint Uorfi's NFT on Wazirx, Opensea, Foundation.",
+    text: "Mint during the public sale which will be open for all. You can mint Uorfi's NFT on this website.",
     show: "true",
   },
   {
@@ -13,8 +13,8 @@ const dataFaq = [
     text: "Uorfi's NFT is one of the first projects with all the utility upfront!!! Prices are set to increase after every use of the utility.",
   },
   {
-    title: "How much will be the floor pricee?",
-    text: "To encourage price discovery, the highest unfilled bid on an NFT receives 0.5% of the transaction fees",
+    title: "How much will be the floor price?",
+    text: "0.21 BNB.",
   },
 ];
 

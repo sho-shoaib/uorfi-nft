@@ -15,7 +15,7 @@ const dataTeam = [
   {
     img: img2,
     name: "Parikshit Pndya",
-    position: "Founder & CEO Rebillion NFT LLP",
+    position: "Co-Founder & CEO Rebillion NFT",
     fbLink: "https://www.facebook.com/parikshit.pandya",
     instaLink: "https://www.instagram.com/parikshitpndya/",
     twitterLink: "https://twitter.com/Pariksh99151310",
@@ -23,7 +23,7 @@ const dataTeam = [
   {
     img: img3,
     name: "Mehul Mstry",
-    position: "Founder and Business Development",
+    position: "Co-Founder and BD Rebillion NFT",
     fbLink: "https://www.facebook.com/MehulMstryy",
     instaLink: "https://www.instagram.com/mehulmstry/",
     twitterLink: "https://twitter.com/impingegrafix",
@@ -31,7 +31,7 @@ const dataTeam = [
   {
     img: img4,
     name: "Abhayrajsinh Gohil",
-    position: "CTO",
+    position: "CTO Rebillion NFT",
     fbLink: "",
     instaLink: "https://www.instagram.com/mxxnwolf/",
     twitterLink: "https://twitter.com/mxxnwolf",

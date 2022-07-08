@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const RoadMap = (props) => {
   const data = props.data;
@@ -20,7 +21,7 @@ const RoadMap = (props) => {
               >
                 <span>UTILITIES</span>
               </h1>
-              <h5
+              <motion.h5
                 className='sub-title mb-10'
                 data-aos='fade-up'
                 data-aos-duration='1000'
@@ -31,7 +32,7 @@ const RoadMap = (props) => {
                 }}
               >
                 Road Map? NO!
-              </h5>
+              </motion.h5>
               <h3
                 className='title mb-28'
                 data-aos='fade-up'

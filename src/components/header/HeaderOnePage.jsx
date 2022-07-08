@@ -53,10 +53,44 @@ const HeaderOnePage = () => {
                   id='main-nav'
                   className={`main-nav ${menuActive ? "active" : ""}`}
                   style={{
-                    display: `${width > 1100 ? "flex" : "inline-block"}`,
+                    display: `${width > 1260 ? "flex" : "inline-block"}`,
                   }}
                 >
                   <ul id='menu-primary-menu' className='menu'>
+                    {/* {(width > 1380 || width < 1260) && (
+                      <> */}
+                    <div style={{ display: "flex", width: "100%" }}>
+                      <li data-aos='fade-up' data-aos-duration='1400'>
+                        <a
+                          href='https://www.instagram.com/urf7i/'
+                          target='_blank'
+                        >
+                          <i
+                            className='fab fa-instagram'
+                            style={{ color: "white" }}
+                          ></i>
+                        </a>
+                      </li>
+                      <li data-aos='fade-up' data-aos-duration='1000'>
+                        <a href='https://discord.gg/QruPReCh' target='_blank'>
+                          <i
+                            className='fab fa-discord'
+                            style={{ color: "white" }}
+                          ></i>
+                        </a>
+                      </li>
+                      <li data-aos='fade-up' data-aos-duration='1000'>
+                        <a href='https://twitter.com/urfeaslam' target='_blank'>
+                          <i
+                            className='fab fa-twitter'
+                            style={{ color: "white" }}
+                          ></i>
+                        </a>
+                      </li>
+                    </div>
+                    {/* </>
+                    )} */}
+
                     {menus.map((data, index) => (
                       <li
                         key={index}
@@ -89,9 +123,9 @@ const HeaderOnePage = () => {
                   </ul>
                   <div
                     style={{
-                      marginTop: `${width < 1100 ? "30px" : "0px"}`,
-                      display: `${width < 1100 ? "flex" : "inline-block"}`,
-                      justifyContent: `${width < 1100 ? "center" : "none"}`,
+                      marginTop: `${width < 1260 ? "30px" : "0px"}`,
+                      display: `${width < 1260 ? "flex" : "inline-block"}`,
+                      justifyContent: `${width < 1260 ? "center" : "none"}`,
                     }}
                   >
                     <ButtonOne />

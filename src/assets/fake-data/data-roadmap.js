@@ -16,7 +16,7 @@ const dataRoadMap = [
   {
     time: "",
     title: "Events!",
-    desc: "Rare NFT hodlers get access to Uorfi events and Uorfi photoshoots.",
+    desc: "Rare NFT hodlers will get access to Uorfi events and Uorfi photoshoots.",
     customDesc: false,
     class: "left mt--23",
   },

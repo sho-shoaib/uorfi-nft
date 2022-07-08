@@ -42,12 +42,9 @@ const Footer = () => {
                   </a>
                 </li>
                 <li data-aos='fade-up' data-aos-duration='1000'>
-                  <a
-                    href='https://www.facebook.com/OfficialUrf7i'
-                    target='_blank'
-                  >
+                  <a href='https://discord.gg/QruPReCh' target='_blank'>
                     <i
-                      className='fab fa-facebook-f'
+                      className='fab fa-discord'
                       style={{ color: "white" }}
                     ></i>
                   </a>

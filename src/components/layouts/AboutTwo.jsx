@@ -5,7 +5,7 @@ import item from "../../assets/fake-data/item";
 const AboutTwo = () => {
   const [data] = useState({
     subtitle: "About Us",
-    title: "Hight Quality NFT Collections",
+    title: "High Quality NFT Collection",
     desc1:
       "Uorfi NFT is an initiative for women's protection through the power of blockchain technology. There are 5000 unique artworks out of a million possibilities which will be a token of contribution to a wise cause.",
     desc2:
