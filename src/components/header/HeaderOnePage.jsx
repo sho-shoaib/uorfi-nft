@@ -62,7 +62,7 @@ const HeaderOnePage = () => {
                     <div style={{ display: "flex", width: "100%" }}>
                       <li data-aos='fade-up' data-aos-duration='1400'>
                         <a
-                          href='https://www.instagram.com/urf7i/'
+                          href='https://www.instagram.com/uorfinft/'
                           target='_blank'
                         >
                           <i
@@ -80,7 +80,7 @@ const HeaderOnePage = () => {
                         </a>
                       </li>
                       <li data-aos='fade-up' data-aos-duration='1000'>
-                        <a href='https://twitter.com/urfeaslam' target='_blank'>
+                        <a href='https://twitter.com/UorfiNft' target='_blank'>
                           <i
                             className='fab fa-twitter'
                             style={{ color: "white" }}

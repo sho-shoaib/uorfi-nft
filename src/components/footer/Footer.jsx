@@ -50,7 +50,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li data-aos='fade-up' data-aos-duration='1000'>
-                  <a href='https://twitter.com/urfeaslam' target='_blank'>
+                  <a href='https://twitter.com/uorfi_' target='_blank'>
                     <i
                       className='fab fa-twitter'
                       style={{ color: "white" }}
